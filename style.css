@@ -1,8 +1,3 @@
-/* ==================================================
-   ModernCV-inspired Resume Style (FINAL)
-   Author: Dilan Can
-   ================================================== */
-
 /* ===== Base ===== */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,7 +9,6 @@ body {
   background: #fff;
 }
 
-/* ===== Headings ===== */
 h1 {
   font-size: 2.4rem;
   margin-bottom: 0.2em;
@@ -36,7 +30,6 @@ h3 {
   padding-left: 160px;
 }
 
-/* ===== Text ===== */
 p {
   margin: 0.4em 0;
 }
@@ -56,7 +49,7 @@ li {
   color: #333;
 }
 
-/* ===== Separators ===== */
+/* ===== Section spacing ===== */
 hr {
   border: none;
   border-top: 1px solid #ddd;
@@ -81,7 +74,7 @@ h3::before {
   font-weight: normal;
 }
 
-/* ===== Education blocks ===== */
+/* Education blocks */
 h2 + p {
   padding-left: 180px;
 }
