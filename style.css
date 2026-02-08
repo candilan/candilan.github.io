@@ -22,21 +22,36 @@ h2 {
   padding-bottom: 4px;
 }
 
+/* ===== Experience title (Job Title) ===== */
 h3 {
-  font-size: 1.05rem;
+  font-size: 1.25rem;        /* daha büyük */
+  font-weight: 700;
   margin-top: 1.6em;
-  margin-bottom: 0.3em;
-  position: relative;
-  padding-left: 160px;
+  margin-bottom: 0.15em;
 }
 
+/* ===== Company / Institution ===== */
+h3 + p {
+  margin-top: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* ===== Date (now below, normal size) ===== */
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.15em;
+  margin-bottom: 0.5em;
+}
+
+/* ===== Paragraphs ===== */
 p {
   margin: 0.4em 0;
 }
 
 ul {
   margin: 0.4em 0 0.8em 1.1em;
-  padding-left: 180px;
 }
 
 li {
@@ -56,27 +71,9 @@ hr {
   margin: 30px 0;
 }
 
-/* ===== Experience / Education entries ===== */
-h3 + p {
-  margin-top: 0.1em;
-  font-weight: 500;
-}
-
-/* ===== Date column (moderncv effect) ===== */
+/* ===== REMOVE old date column ===== */
 h3::before {
-  content: attr(data-date);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 140px;
-  font-size: 0.85rem;
-  color: #666;
-  font-weight: normal;
-}
-
-/* Education blocks */
-h2 + p {
-  padding-left: 180px;
+  content: none;
 }
 
 /* ===== Print / PDF friendly ===== */
